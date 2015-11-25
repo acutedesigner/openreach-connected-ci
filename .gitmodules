@@ -1,1 +1,4 @@
 
+[submodule "template_assets"]
+	path = template_assets
+	url = git@github.com:nutyga/openreach-connected-html
