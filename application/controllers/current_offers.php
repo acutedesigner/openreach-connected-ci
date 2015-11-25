@@ -13,17 +13,17 @@ class Current_offers extends MY_Controller {
 	{
 		//Get data for sidebar articles	and offers	
 		$this->load->model('content_model');
-		$newsletter_parent = $this->content_model->get_page_title('newsletter-articles');
-		$offers_parent = $this->content_model->get_page_title('current-offers');
+		$newsletter_parent = $this->content_model->get_page_title('newsletter-articles', $this->current_content_table);
+		$offers_parent = $this->content_model->get_page_title('current-offers', $this->current_content_table);
 				
-		$data['sidebar_articles'] = $this->content_model->get_sidebar($newsletter_parent->lft,$newsletter_parent->rgt);
-		$data['current_offers'] = $this->content_model->get_sidebar($offers_parent->lft,$offers_parent->rgt);
+		$data['sidebar_articles'] = $this->content_model->get_sidebar($newsletter_parent->lft,$newsletter_parent->rgt, $this->current_content_table);
+		$data['current_offers'] = $this->content_model->get_sidebar($offers_parent->lft,$offers_parent->rgt, $this->current_content_table);
 
 		//Get the menus
-		$news_articles_menu = $this->content_model->get_menu('newsletter-articles');
+		$news_articles_menu = $this->content_model->get_menu('newsletter-articles', $this->current_content_table);
 		$data['news_menu'] = $news_articles_menu;
 		
-		$footer_menu = $this->content_model->get_menu('footer-links');
+		$footer_menu = $this->content_model->get_menu('footer-links', $this->current_content_table);
 		$data['footer_menu'] = $footer_menu;
 		
 		$data['current_article'] = 0;
