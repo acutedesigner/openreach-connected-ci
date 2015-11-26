@@ -8,6 +8,7 @@
 								<?php if(isset($article['filename'])): ?><img src="<?php echo base_url('media').'/'.$article['filename'].$article['ext']; ?>" alt="" ><?php endif; ?>
 
 							</div>						
+							<?php if($article['tag_name'] !=""): ?><p class="article-tag"><?php echo $article['tag_name']; ?></p><?php endif; ?>
 							<h3><a href="<?php echo base_url('archive/content/'.$edition_id).'/'.$article['friendly_title']; ?>"><?php echo $article['title']; ?></a></h3>
 						</div>	
 					

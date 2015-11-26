@@ -43,7 +43,7 @@
 						<img class="openreach-logo" src="<?php echo $this->template_url; ?>img/openreach-logo-header.jpg" srcset="<?php echo $this->template_url; ?>img/openreach-logo-header.jpg 1x, <?php echo $this->template_url; ?>img/openreach-logo-header-2x.jpg 2x" alt="Openreach Logo" ></li>
 						<li><div class="tab"><?php echo date('F'); ?> 2015</div></li>
 					</ul>
-					<a href="<?php echo base_url(); ?>"><img class="connected-logo" src="<?php echo $this->template_url; ?>img/connected-logo.jpg" srcset="<?php echo $this->template_url; ?>img/connected-logo.jpg 1x, <?php echo $this->template_url; ?>img/connected-logo@2x.jpg 2x" alt="Connected - Newsletter" ></a>
+					<a href="<?php echo base_url(); ?>"><img class="connected-logo" src="<?php echo $this->template_url; ?>img/connected-logo-new.jpg" srcset="<?php echo $this->template_url; ?>img/connected-logo-new.jpg 1x, <?php echo $this->template_url; ?>img/connected-logo-new@2x.jpg 2x" alt="Connected - Newsletter" ></a>
 				</div>
 			</header>
 			<div class="header-band">
