@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Promos extends CI_Controller {
+class Promos extends MY_Admin_Controller {
 
 	// Setup CRUD
 
@@ -89,7 +89,7 @@ class Promos extends CI_Controller {
 		// Get the promo gallery list
 		$this->load->model('gallery_model');
 		
-		if($promo_offers = $this->gallery_model->get_gallery_images(0,100,NULL,'promotional-offers', NULL, $this->current_lightbox_table))
+		if($promo_offers = $this->gallery_model->get_gallery_images(0,100,NULL,'promotional-offers', $this->current_lightbox_table))
 		{
 			$images_array = array('' => 'Select One...');
 			
