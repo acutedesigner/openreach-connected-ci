@@ -116,6 +116,7 @@
 <script type="text/javascript">
 tinymce.init({
     selector: "#content",
+    forced_root_block : "",
     plugins: [
         "advlist autolink lists link image charmap print preview anchor",
         "searchreplace visualblocks code fullscreen",
