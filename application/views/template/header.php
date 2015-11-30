@@ -57,16 +57,16 @@
 					<ul>
 						<?php if(isset($news_menu)): ?>
 						<li <?php if(isset($link_newsletter)): echo 'class="current-menu-parent"'; endif; ?> >
-							<a href="<?php echo base_url(); ?>">Newsletter Articles</a>
+							<a href="<?php echo base_url(); ?>">Newsletter articles</a>
 							<ul>
-									<?php foreach ($news_menu as $result): ?>
+							<?php foreach ($news_menu as $result): ?>
 
-										<li><a href="<?php echo base_url($result->friendly_title); ?>"><?php echo $result->title; ?></a></li>
+								<li><a href="<?php echo base_url($result->friendly_title); ?>"><?php echo $result->title; ?></a></li>
 
-									<?php endforeach; ?>
+							<?php endforeach; ?>
 							</ul>
 						</li>
-						<li <?php if(isset($link_currentoffers)): echo 'class="current-menu-parent"'; endif; ?> ><a href="<?php echo base_url('current-offers/'); ?>">Current Offers</a></li>
+						<li <?php if(isset($link_currentoffers)): echo 'class="current-menu-parent"'; endif; ?> ><a href="<?php echo base_url('current-offers/'); ?>">Current offers</a></li>
 						<?php endif; ?>
 					</ul>
 				</div>

@@ -59,7 +59,7 @@
 						<?php endif; ?>
 						<?php if(isset($news_menu)): ?>
 						<li <?php if(isset($link_newsletter)): echo 'class="current-menu-parent"'; endif; ?> >
-							<a href="<?php echo base_url('archive/'); ?>">Newsletter Articles</a>
+							<a href="<?php echo base_url('archive/'); ?>">Newsletter articles</a>
 							<ul>
 									<?php foreach ($news_menu as $result): ?>
 
@@ -68,7 +68,7 @@
 									<?php endforeach; ?>
 							</ul>
 						</li>
-						<li <?php if(isset($link_currentoffers)): echo 'class="current-menu-parent"'; endif; ?> ><a href="<?php echo base_url('archive/current-offers/'.$edition_id); ?>">Current Offers</a></li>
+						<li <?php if(isset($link_currentoffers)): echo 'class="current-menu-parent"'; endif; ?> ><a href="<?php echo base_url('archive/current-offers/'.$edition_id); ?>">Current offers</a></li>
 						<?php endif; ?>
 					</ul>
 					

@@ -28,7 +28,7 @@
 			<div class="container">
 				<ul>
 					<li><a href="http://www.openreach.co.uk" target="_blank">Openreach.co.uk</a></li>
-					<li><a href=" https://www.ciz-openreach.co.uk/" target="_blank">CIZ</a></li>
+					<li><a href="https://www.ciz-openreach.co.uk/" target="_blank">Customer Information Zone</a></li>
 					<li><a href="https://www.openreach.co.uk/orpg/home/aboutus/disclaimer.do" target="_blank">Disclaimer</a></li>
 					<li><a href="https://www.openreach.co.uk/orpg/home/aboutus/termsandconditions.do" target="_blank">Terms &amp; Conditions</a></li>
 					<li><a href="http://home.bt.com/pages/navigation/privacypolicy.html" target="_blank">Privacy Policy</a></li>
