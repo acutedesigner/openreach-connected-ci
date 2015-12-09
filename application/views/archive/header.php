@@ -37,7 +37,7 @@
 			</header>
 			<div class="header-band">
 				<div class="container">
-					News, Views and Offers
+					News, views and offers
 				</div>
 			</div>
 			<nav>
