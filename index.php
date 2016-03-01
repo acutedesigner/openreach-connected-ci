@@ -20,7 +20,10 @@
  */
 	if ($_SERVER['SERVER_NAME'] == 'php-lamp-104185.nitrousapp.com') {
 	    define('ENVIRONMENT', 'development');
-	} else {
+	} elseif($_SERVER['SERVER_NAME'] == 'acumen-development-projects-144872.nitrousapp.com'){
+	    define('ENVIRONMENT', 'development');
+	}
+	else {
 	    define('ENVIRONMENT', 'production');
 	}
 /*
